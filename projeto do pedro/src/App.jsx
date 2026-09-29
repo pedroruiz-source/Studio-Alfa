@@ -1,16 +1,15 @@
-import Header from "./assets/componets/header/header"
+import Header from "./componets/header/header";
+import Main from "./componets/Main/main";
+import Footer from "./componets/Footer/Footer";
 
-
-function App (){
-  return(
-
+function App() {
+  return (
     <>
-    
-    <Header/> 
-{/*<main> </main>
-<footer> </footer*/}
+      <Header />
+      <Main></Main>
+      <footer></footer>
     </>
-  )
+  );
 }
 
-export default app
+export default App;
